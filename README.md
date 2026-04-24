@@ -1,6 +1,6 @@
-* Nama        = Intan Rizky Yuniar
-* NIM         = 24090620034
-* Mata Kuliah = UTS Mikrokontroller
+Nama        = Intan Rizky Yuniar
+NIM         = 24090620034
+Mata Kuliah = UTS Mikrokontroller
 
 # Sistem-Parkir-Otomatis
 Proyek ini merupakan sistem purwarupa (prototype) manajemen parkir otomatis yang dirancang untuk mengoptimalkan kuota lahan parkir secara real-time. Sistem ini mengintegrasikan sensor input untuk memantau kapasitas dan aktuator untuk mengontrol akses kendaraan.
