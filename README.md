@@ -23,7 +23,6 @@ Proyek ini mengintegrasikan berbagai konsep yang telah dipelajari selama praktik
 * **Input Digital:** Penggunaan Push Button sebagai pemicu (interrupt) sistem.
 * **Output PWM:** Penggunaan Motor Servo untuk penggerak palang pintu dengan sudut presisi.
 * **Komunikasi Serial I2C:** Integrasi LCD 16x2 untuk efisiensi penggunaan pin Arduino.
-* **Logika Kondisional:** Pemrograman alur sistem (If-Else) untuk menentukan status parkir (Tersedia/Penuh).
 * **Aktuator DC:** Penggunaan Motor DC sebagai simulasi sistem sirkulasi udara (Exhaust Fan).
 
 ---
