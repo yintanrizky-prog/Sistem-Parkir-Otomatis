@@ -53,5 +53,5 @@ Penjelasan detail komponen dan cara kerja alat dapat dilihat pada video berikut:
 [![Video Demo Sistem Parkir](https://img.youtube.com/vi/AW9QHFLfN3U/0.jpg)](https://www.youtube.com/watch?v=AW9QHFLfN3U)
 
 ### Link Penting
-* **Simulasi Tinkercad:** [Klik di Sini untuk Melihat Rangkaian](GANTI_DENGAN_LINK_TINKERCAD_KAMU)
+* **Simulasi Tinkercad:** [https://www.tinkercad.com/things/4OfHwppKm3U-cool-blorr/editel)
 * **Video Demo (YouTube):** [https://youtu.be/AW9QHFLfN3U](https://youtu.be/AW9QHFLfN3U)
