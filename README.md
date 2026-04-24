@@ -1,7 +1,5 @@
 # SISTEM PARKIR OTOMATIS BERBASIS ARDUINO UNO
 
-Proyek ini adalah sistem manajemen parkir pintar yang dibuat sebagai implementasi praktikum Mikrokontroler. Sistem ini mensimulasikan kontrol akses kendaraan dan pemantauan kapasitas lahan parkir secara otomatis menggunakan platform Tinkercad.
-
 ---
 
 ## 👤 Identitas Mahasiswa
