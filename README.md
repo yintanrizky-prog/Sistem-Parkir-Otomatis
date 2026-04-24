@@ -26,12 +26,14 @@ Proyek ini mengintegrasikan berbagai konsep yang telah dipelajari selama praktik
 ---
   
 * ## 🚀 Cara Kerja Sistem
-1. **Monitoring:** Potensiometer bertindak sebagai simulator kapasitas. Jika diputar, nilai variabelnya akan dianggap sebagai jumlah mobil yang ada di dalam.
-2. **Indikasi Status:**
-   - **Lampu Hijau/Kuning:** Menyala jika slot masih tersedia, LCD menampilkan "TERSEDIA".
-   - **Lampu Merah:** Menyala jika kapasitas penuh, LCD menampilkan "PENUH".
-4. **Kontrol Akses:** Saat tombol (Push Button) ditekan, sistem mengecek kuota. Jika tersedia, Servo akan membuka palang (90°). Jika penuh, palang tetap tertutup.
-5. **Otomasi Tambahan:** Motor DC aktif secara otomatis untuk menjaga sirkulasi udara di dalam gedung parkir.
+1. **Monitoring Kapasitas:** Potensiometer bertindak sebagai simulator jumlah kendaraan. Data analog dari potensiometer diolah oleh Arduino dan hasilnya ditampilkan secara real-time pada **LCD 16x2**.
+2. **Indikasi Status di LCD & LED:**
+   - Jika slot tersedia, **LCD** menampilkan pesan "Slot Tersedia" beserta jumlah kuotanya, dan **LED Hijau/Kuning** menyala.
+   - Jika kapasitas penuh, **LCD** akan berubah menampilkan pesan "Parkir Penuh", dan **LED Merah** akan menyala.
+4. **Logika Palang Pintu (Servo):** - Pengendara menekan **Push Button** untuk masuk.
+   - Mikrokontroler akan mengecek kondisi kuota. Jika masih ada slot, **Servo** akan bergerak memutar 90 derajat (membuka palang) selama beberapa detik, lalu kembali ke posisi 0 derajat (menutup).
+   - Jika kondisi parkir penuh (berdasarkan data potensiometer), **Servo** akan tetap diam (0 derajat) meskipun tombol ditekan, untuk mencegah kendaraan masuk.
+5. **Otomasi Sirkulasi:** **Motor DC** aktif secara otomatis sebagai simulasi sistem kipas untuk menjaga sirkulasi udara di dalam area parkir sesuai dengan kepadatan kendaraan.
 
 ---
 
