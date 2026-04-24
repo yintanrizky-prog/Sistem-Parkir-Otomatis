@@ -13,4 +13,4 @@ Sistem parkir otomatis menggunakan Arduino, servo, LCD, potensiometer, Motor DC 
 * **LED Hijau (Tersedia):** Pin 13
 
 ## Skema Rangkaian:
-![Rangkaian Sistem Parkir](nama_file_gambar_kamu.png)
+![Rangkaian Sistem Parkir](rangkaian.png)
