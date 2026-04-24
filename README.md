@@ -27,4 +27,4 @@ Proyek ini merupakan sistem purwarupa (prototype) manajemen parkir otomatis yang
 ### 📺 Video Demonstrasi
 Berikut adalah penjelasan komponen, konfigurasi pin, dan simulasi cara kerja alat:
 
-[![Sistem Parkir Otomatis](https://youtu.be/AW9QHFLfN3U ini link ytb)
+{Sistem Parkir Otomatis(https://youtu.be/AW9QHFLfN3U ini link ytb)}
