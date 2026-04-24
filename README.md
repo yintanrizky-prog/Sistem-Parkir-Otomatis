@@ -4,6 +4,14 @@ Proyek ini adalah sistem manajemen parkir pintar yang dibuat sebagai implementas
 
 ---
 
+## 👤 Identitas Mahasiswa
+* **Nama:** Intan Rizky Yuniar
+* **NIM:** 24090620034
+* **Mata Kuliah:** Praktikum Mikrokontroler
+* **Program Studi:** D4 Teknik Elektronika
+
+---
+
 ## 📝 Deskripsi Proyek
 Sistem ini dirancang untuk menggantikan pengelolaan parkir manual menjadi otomatis. Dengan memanfaatkan mikrokontroler Arduino Uno, sistem dapat mendeteksi ketersediaan slot, mengatur palang pintu, dan memberikan indikasi visual maupun informasi real-time kepada pengguna melalui layar LCD dan lampu indikator.
 
