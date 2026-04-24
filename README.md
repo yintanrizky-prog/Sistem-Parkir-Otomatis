@@ -1,30 +1,57 @@
-Nama        = Intan Rizky Yuniar
-NIM         = 24090620034
-Mata Kuliah = UTS Mikrokontroller
+# SISTEM PARKIR OTOMATIS BERBASIS ARDUINO UNO
 
-# Sistem-Parkir-Otomatis
-Proyek ini merupakan sistem purwarupa (prototype) manajemen parkir otomatis yang dirancang untuk mengoptimalkan kuota lahan parkir secara real-time. Sistem ini mengintegrasikan sensor input untuk memantau kapasitas dan aktuator untuk mengontrol akses kendaraan.
+Proyek ini adalah sistem manajemen parkir pintar yang dibuat sebagai implementasi praktikum Mikrokontroler. Sistem ini mensimulasikan kontrol akses kendaraan dan pemantauan kapasitas lahan parkir secara otomatis menggunakan platform Tinkercad.
 
-## 🛠️ Penjelasan Komponen
-* **Arduino Uno:** Sebagai pusat kendali (otak) sistem.
-* **Servo Motor:** Bertugas sebagai mekanisme palang pintu otomatis.
-* **LCD 16x2 (I2C):** Menampilkan status ketersediaan slot parkir secara visual.
-* **Potensiometer:** Simulasi sensor untuk membaca kapasitas kendaraan di dalam area parkir.
-* **Push Button:** Pemicu (trigger) untuk membuka palang pintu masuk.
-* **LED (Hijau, Kuning, Merah):** Indikator visual status kapasitas (Tersedia, Waspada, atau Penuh).
-* **Motor DC:** Simulasi sistem sirkulasi udara (Exhaust Fan) otomatis.
+---
 
-# Daftar Pin Utama:
-* **Servo (Palang):** Pin 9
-* **Push Button:** Pin 2
-* **Potensiometer:** Pin A0
-* **LCD I2C:** SDA (A4), SCL (A5)
-* **Motor DC:** Pin 3
-* **LED Merah (Penuh):** Pin 12
-* **LED Kuning (Waspada):** Pin 11
-* **LED Hijau (Tersedia):** Pin 13
+## 📝 Deskripsi Proyek
+Sistem ini dirancang untuk menggantikan pengelolaan parkir manual menjadi otomatis. Dengan memanfaatkan mikrokontroler Arduino Uno, sistem dapat mendeteksi ketersediaan slot, mengatur palang pintu, dan memberikan indikasi visual maupun informasi real-time kepada pengguna melalui layar LCD dan lampu indikator.
 
-### 📺 Video Demonstrasi
-Berikut adalah penjelasan komponen, konfigurasi pin, dan simulasi cara kerja alat:
+---
 
-{Sistem Parkir Otomatis(https://youtu.be/AW9QHFLfN3U ini link ytb)}
+## 🛠️ Implementasi Materi Praktikum
+Proyek ini mengintegrasikan berbagai konsep yang telah dipelajari selama praktikum, antara lain:
+* **Input Analog:** Penggunaan Potensiometer untuk membaca data variabel (kapasitas).
+* **Input Digital:** Penggunaan Push Button sebagai pemicu (interrupt) sistem.
+* **Output PWM:** Penggunaan Motor Servo untuk penggerak palang pintu dengan sudut presisi.
+* **Komunikasi Serial I2C:** Integrasi LCD 16x2 untuk efisiensi penggunaan pin Arduino.
+* **Logika Kondisional:** Pemrograman alur sistem (If-Else) untuk menentukan status parkir (Tersedia/Penuh).
+* **Aktuator DC:** Penggunaan Motor DC sebagai simulasi sistem sirkulasi udara (Exhaust Fan).
+
+---
+  
+* ## 🚀 Cara Kerja Sistem
+1. **Monitoring:** Potensiometer bertindak sebagai simulator kapasitas. Jika diputar, nilai variabelnya akan dianggap sebagai jumlah mobil yang ada di dalam.
+2. **Indikasi Status:** - **Lampu Hijau/Kuning:** Menyala jika slot masih tersedia, LCD menampilkan "TERSEDIA".
+   - **Lampu Merah:** Menyala jika kapasitas penuh, LCD menampilkan "PENUH".
+3. **Kontrol Akses:** Saat tombol (Push Button) ditekan, sistem mengecek kuota. Jika tersedia, Servo akan membuka palang (90°). Jika penuh, palang tetap tertutup.
+4. **Otomasi Tambahan:** Motor DC aktif secara otomatis untuk menjaga sirkulasi udara di dalam gedung parkir.
+
+---
+
+## 🔌 Rangkaian (Wiring)
+Berikut adalah konfigurasi pin yang digunakan dalam rangkaian:
+
+| Komponen | Pin Arduino | Fungsi |
+| :--- | :--- | :--- |
+| **Push Button** | D2 | Input Tombol Buka Palang |
+| **Motor Servo** | D9 | Output Penggerak Palang |
+| **LCD 16x2 I2C** | A4 (SDA), A5 (SCL) | Display Informasi |
+| **Potensiometer** | A0 | Input Simulasi Kapasitas |
+| **LED Hijau** | D13 | Indikator Slot Tersedia |
+| **LED Kuning** | D11 | Indikator Slot Hampir Penuh |
+| **LED Merah** | D12 | Indikator Parkir Penuh |
+| **Motor DC** | D3 | Output Kipas Sirkulasi |
+
+---
+
+## 📸 Dokumentasi & Demo
+
+### Video Demonstrasi
+Penjelasan detail komponen dan cara kerja alat dapat dilihat pada video berikut:
+
+[![Video Demo Sistem Parkir](https://img.youtube.com/vi/AW9QHFLfN3U/0.jpg)](https://www.youtube.com/watch?v=AW9QHFLfN3U)
+
+### Link Penting
+* **Simulasi Tinkercad:** [Klik di Sini untuk Melihat Rangkaian](GANTI_DENGAN_LINK_TINKERCAD_KAMU)
+* **Video Demo (YouTube):** [https://youtu.be/AW9QHFLfN3U](https://youtu.be/AW9QHFLfN3U)
