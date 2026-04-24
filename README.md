@@ -27,10 +27,11 @@ Proyek ini mengintegrasikan berbagai konsep yang telah dipelajari selama praktik
   
 * ## 🚀 Cara Kerja Sistem
 1. **Monitoring:** Potensiometer bertindak sebagai simulator kapasitas. Jika diputar, nilai variabelnya akan dianggap sebagai jumlah mobil yang ada di dalam.
-2. **Indikasi Status:** - **Lampu Hijau/Kuning:** Menyala jika slot masih tersedia, LCD menampilkan "TERSEDIA".
+2. **Indikasi Status:**
+   - **Lampu Hijau/Kuning:** Menyala jika slot masih tersedia, LCD menampilkan "TERSEDIA".
    - **Lampu Merah:** Menyala jika kapasitas penuh, LCD menampilkan "PENUH".
-3. **Kontrol Akses:** Saat tombol (Push Button) ditekan, sistem mengecek kuota. Jika tersedia, Servo akan membuka palang (90°). Jika penuh, palang tetap tertutup.
-4. **Otomasi Tambahan:** Motor DC aktif secara otomatis untuk menjaga sirkulasi udara di dalam gedung parkir.
+4. **Kontrol Akses:** Saat tombol (Push Button) ditekan, sistem mengecek kuota. Jika tersedia, Servo akan membuka palang (90°). Jika penuh, palang tetap tertutup.
+5. **Otomasi Tambahan:** Motor DC aktif secara otomatis untuk menjaga sirkulasi udara di dalam gedung parkir.
 
 ---
 
