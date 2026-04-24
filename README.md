@@ -1,5 +1,5 @@
-* Nama = Intan Rizky Yuniar
-* NIM = 24090620034
+* Nama        = Intan Rizky Yuniar
+* NIM         = 24090620034
 * Mata Kuliah = UTS Mikrokontroller
 
 # Sistem-Parkir-Otomatis
